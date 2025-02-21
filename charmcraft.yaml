@@ -30,12 +30,12 @@ resources:
   bessd-image:
     type: oci-image
     description: OCI image for 5G upf bessd
-    upstream-source: ghcr.io/canonical/sdcore-upf-bess:1.5.0
+    upstream-source: ghcr.io/canonical/sdcore-upf-bess:2.0.0
 
   pfcp-agent-image:
     type: oci-image
     description: OCI image for 5G upf pfcp-agent
-    upstream-source: ghcr.io/canonical/sdcore-upf-pfcpiface:1.5.0
+    upstream-source: ghcr.io/canonical/sdcore-upf-pfcpiface:2.0.0
 
 storage:
   config:
